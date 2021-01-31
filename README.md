@@ -8,6 +8,7 @@ You need ESPHome add-on installed and running in HomeAssistant.
 1. Compile and upload the code to your D1 Mini via serial for the first time from ESPHome. Future updates can then be OTA.
 1. Add the code in the configuration.yaml file here on Github to your configuration.yaml - this will create the switch to turn on and off the display on the Laundrybot.
 1. Check your configuration.yaml is valid, then restart HA.
+1. Create a new entities card on your lovelace dashboard for Laundrybot. See lovelacecardcode.txt for my code for a basic status card. You can of course use Sensor cards if you want a nice graph of A or W usage over time for your washing machine.
 
 I've included the STL's to print out my housing for the circuit board that holds the Wemos D1 mini, the display, and the circuit to connect to the CT Clamp.
 
