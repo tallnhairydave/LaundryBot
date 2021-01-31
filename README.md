@@ -35,7 +35,7 @@ Note, I've found that after laundrybot boots, it takes a few seconds once it's s
 * 1 x 90 degree micro USB cable (if you want the power for the D1 mini to exit downwards from the case)
 * 2 x M3x6 (no longer than M3x8) machine screws to hold the protoboard in the case
 * 1 x 10µF Capacitor
-* 2 x 10k Resistors
+* 2 x 10k Resistors - according to this guide at https://savjee.be/2019/07/Home-Energy-Monitor-ESP32-CT-Sensor-Emonlib/ (Thanks dude, your article on how to wire up the CT Clamp was invaluable!) any resistors between 10K and 470K are suitable, as long as they are both the same value.
 * 1 x 2 wires screw terminal for solderable protoboard (note that the terminal block I used occupies 3 pins width on the board, with an unused column between it's two pins, see the fritzing diagram)
 * 2 x M2.5x8 machine screws to hold the display to it's printed support. I designed the support to have M3 screw holes, but they printed too small so had to use M2.5 screws instead. YMMV
 * A length of CAT6 network cable to run from the laundrybot location to the location of your power enclosure to house the CT Clamp. I used CAT6 as I had some lying around. CAT5e will work fine.  You could simply cut the ends off of a suitable length ethernet cable and use that instead of using spare cable from a spool like I did. 
