@@ -1,5 +1,13 @@
 # LaundryBot
-ESP8266 based CT Clamp sensor for monitoring washing machine power usage and reporting into HomeAssistant
+ESP8266 based CT Clamp sensor for monitoring washing machine power usage and reporting into HomeAssistant. 
+
+You need ESPHome add-on installed and running in HomeAssistant. 
+
+1. Create a new ESPHome node
+1. Update the laundrybot.yaml to suit your OTA and API passwords set during creation of the new node, and your WIFI network settings.
+1. Compile and upload the code to your D1 Mini via serial for the first time from ESPHome. Future updates can then be OTA.
+1. Add the code in the my_configuration.yaml file here to your configuration.yaml 
+1. Check your configuration.yaml is valid, then restart HA.
 
 I've included the STL's to print out my housing for the circuit board that holds the Wemos D1 mini, the display, and the circuit to connect to the CT Clamp.
 
@@ -8,6 +16,8 @@ THIS IS DESIGNED AND BUILT TO WORK WITH A UK SINGLE PHASE 240V 3 CORE MAINS POWE
 I am using it to monitor my washing machine, which has a 13A fuse. 
 
 I've made an "extension lead" by cutting a 1 gang 5M extension cable in half, exposing the three cores and re-terminating them inside a junction box with screw down cable glands for cable entry. That way, the mains cable is safe and the CT clamp can be placed around the LIVE wire to enable current to be monitored.
+
+**I AM IN NO WAY RESPONSIBLE FOR ANY ISSUES THAT MAY ARISE IF YOU BUILD THIS CIRCUIT AND WIRE UP ANYTHING TO IT. PROCEED AT YOUR OWN RISK**
 
 ## BILL OF MATERIALS:
 * 1 x Wemos D1 Mini ESP8266 
@@ -35,3 +45,5 @@ I've made an "extension lead" by cutting a 1 gang 5M extension cable in half, ex
 
 ## Wiring diagram for the protoboard
 ![wiring diagram](https://github.com/tallnhairydave/LaundryBot/blob/main/fritzing_diagram.png)
+
+
