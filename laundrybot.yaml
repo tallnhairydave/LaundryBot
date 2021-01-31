@@ -198,10 +198,10 @@ text_sensor:
         return {"Washing"};
       }
       if ((id(washing_machine_watts).state >= 400) and (id(washing_machine_watts).state < 1500)) {
-        return {"Drying"};
+        return {"Spinning"};
       }
       if ((id(washing_machine_watts).state >= 1500) and (id(washing_machine_watts).state < 1800)) {
-        return {"Running"};
+        return {"Fast Spin"};
       }
       if ((id(washing_machine_watts).state >= 1800)) {
         return {"Heating"};
