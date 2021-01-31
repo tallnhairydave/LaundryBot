@@ -12,7 +12,7 @@ ESP8266 based CT Clamp sensor for monitoring washing machine power usage and rep
 
 Once you've got the data coming into HA, you can then fire off notifications etc depending on the washing machine state. :)
 
-I've included the STL's to print out my housing for the circuit board that holds the Wemos D1 mini, the display, and the circuit to connect to the CT Clamp.
+You'll also need a 3D printer to print out the enclosure :) I've included the STL's to print out my housing for the circuit board that holds the Wemos D1 mini, the display, and the circuit to connect to the CT Clamp.
 
 **THIS IS DESIGNED AND BUILT TO WORK WITH A UK SINGLE PHASE 240V 3 CORE MAINS POWER CABLE, the CT Clamp goes around the LIVE core of the wire inside a junction box.**
 
