@@ -1,3 +1,6 @@
+This is the code for a Lovelace Entities card showing the state of the washing machine using sensors created from the ESPHome code
+and also the switch created by the configuration.yaml code to "turn off" the display on Laundrybot. 
+
 type: entities
 entities:
   - entity: sensor.washing_machine_current
@@ -5,3 +8,20 @@ entities:
   - entity: sensor.washing_machine_status
   - entity: switch.laundrybotdisplay_switch_inverted
 title: Laundrybot!
+
+
+This the code for an entities card to display state of the D1 Mini, and optionally reboot it or put it into deep sleep:
+
+type: entities
+title: Laundrybot Controller
+show_header_toggle: false
+state_color: true
+entities:
+  - entity: binary_sensor.laundrybot_status
+  - entity: sensor.laundrybot_uptime_friendly
+  - entity: sensor.laundrybot_wifi_signal
+    name: WiFi Signal
+  - entity: switch.laundrybot_restart
+    name: Reboot Laundrybot
+  - entity: switch.laundrybot_shutdown
+    name: Shutdown Laundrybot
