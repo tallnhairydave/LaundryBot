@@ -1,8 +1,8 @@
 # LaundryBot
 ESP8266 based CT Clamp sensor for monitoring washing machine power usage and reporting into HomeAssistant. 
 
-You need ESPHome add-on installed and running in HomeAssistant. 
-
+1. You need ESPHome add-on installed and running in HomeAssistant. 
+1. You will need the fonts listed in fonts/readme.txt downloaded and installed in your HA installation in config/esphome/fonts/
 1. Create a new ESPHome node
 1. Update the laundrybot.yaml to suit your OTA and API passwords set during creation of the new node, and your WIFI network settings.
 1. Compile and upload the code to your D1 Mini via serial for the first time from ESPHome. Future updates can then be OTA.
@@ -47,16 +47,22 @@ Note, I've found that after laundrybot boots, it takes a few seconds once it's s
 1 x one-gang extension lead that is long enough to go from the washer's mains socket to the floor, and tuck under the cabinet next to the washer. I ended up using a 5m cable.
 1 x cable termination method of your choice to join the mains cable back together inside the junction box
 3 x cable glands for the junction box (i used 20mm screw down cable glands that I had spare).
+2 x 3M Command Strips (or other tape of your choice) to fix the Laundrybot enclosure to the wall.
 
 ## Wiring diagram for the protoboard
 ![wiring diagram](https://github.com/tallnhairydave/LaundryBot/blob/main/photos/fritzing_diagram.png)
 
-## Circuit assembled on protoboard and installed in case. 
+## Photos:
+**Circuit assembled on protoboard and installed in case.** 
 ![circuit assembled on protoboard](https://github.com/tallnhairydave/LaundryBot/blob/main/photos/IMG_1792.jpeg)
 Note the 3D printed support "bridge" for the screen attached to the protoboard with tape.
 
-## Circuit in case with D1 Mini and display installed
+**Circuit in case with D1 Mini and display installed**
 ![circuit assembled on protoboard](https://github.com/tallnhairydave/LaundryBot/blob/main/photos/IMG_1790.jpeg)
 
-## Assembled case, with USB cable, and attached cable tidy part.
+**Assembled case, with USB cable, and attached cable tidy part.**
 ![assembled case, ready to go on wall](https://github.com/tallnhairydave/LaundryBot/blob/main/photos/IMG_1789.jpeg)
+
+**Inside the "Junction Box" I made so I could get the CT Clamp on the L wire**
+![Inside the junction box](https://github.com/tallnhairydave/LaundryBot/blob/main/photos/IMG_1791.JPG)
+
