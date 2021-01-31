@@ -55,5 +55,8 @@ Note, I've found that after laundrybot boots, it takes a few seconds once it's s
 ![circuit assembled on protoboard](https://github.com/tallnhairydave/LaundryBot/blob/main/photos/IMG_1792.jpeg)
 Note the 3D printed support "bridge" for the screen attached to the protoboard with tape.
 
+## Circuit in case with D1 Mini and display installed
+![circuit assembled on protoboard](https://github.com/tallnhairydave/LaundryBot/blob/main/photos/IMG_1790.jpeg)
+
 ## Assembled case, with USB cable, and attached cable tidy part.
 ![assembled case, ready to go on wall](https://github.com/tallnhairydave/LaundryBot/blob/main/photos/IMG_1789.jpeg)
