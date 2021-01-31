@@ -16,9 +16,7 @@ You'll also need a 3D printer to print out the enclosure :) I've included the ST
 
 **THIS IS DESIGNED AND BUILT TO WORK WITH A UK SINGLE PHASE 240V 3 CORE MAINS POWER CABLE, the CT Clamp goes around the LIVE core of the wire inside a junction box.**
 
-I am using it to monitor my washing machine, which has a 13A fuse. 
-
-I've made an "extension lead" by cutting a 1 gang 5M extension cable in half, exposing the three cores and re-terminating them inside a junction box with screw down cable glands for cable entry. That way, the mains cable is safe and the CT clamp can be placed around the LIVE wire to enable current to be monitored. The washing machine then plugs into that "extension lead" instead of directly into the wall, and the extension lead has the same rating fuse installed as the washing machine does.
+I am using it to monitor my washing machine, so I've made an "extension lead" by cutting a 1 gang 5M extension cable in half, exposing the three cores and re-terminating them inside a junction box with screw down cable glands for cable entry. That way, the mains cable is safe and the CT clamp can be placed around the LIVE wire to enable current to be monitored. The washing machine then plugs into that "extension lead" instead of directly into the wall, and it goes without saying that **the extension lead has the same rating fuse installed in it's plug as the washing machine has in it's plug.**
 
 Note, I've found that after laundrybot boots, it takes a few seconds once it's started sending data into HA before it "settles down" and stops reporting spurious current readings. 
 
