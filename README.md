@@ -4,6 +4,7 @@ ESP8266 based CT Clamp sensor for monitoring washing machine power usage and rep
 I've included the STL's to print out my housing for the circuit board that holds the Wemos D1 mini, the display, and the circuit to connect to the CT Clamp.
 
 BILL OF MATERIALS:
+
 1 x Wemos D1 Mini ESP8266 
 
 1 x 1.3inch I2C Serial 128x64 SSH1106 OLED LCD Display  
