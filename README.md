@@ -43,11 +43,11 @@ Note, I've found that after laundrybot boots, it takes a few seconds once it's s
 * Assorted 22 AWG wires to make jumpers for the solderable protoboard
 * Assorted heatshrink tube (a) to tidy the wiring loom for the display, (b) to insulate the soldered joint between the CT Clamp to two pairs of the CAT6 cable used to extend the wiring, and (c) as needed for the mains cable, depending on how you terminate it inside the junction box.
 * 1 x zip tie to act as strain relief on the CAT6 cable where it enters the Laundrybot housing in case it somehow gets tugged. You can also hot-glue it down to the protoboard. 
-1 x ABS junction box at large enough to house the CT clamp and the mains power cable. Mine was 15cm x 11cm x 7cm and was just about the right size.
-1 x one-gang extension lead that is long enough to go from the washer's mains socket to the floor, and tuck under the cabinet next to the washer. I ended up using a 5m cable.
-1 x cable termination method of your choice to join the mains cable back together inside the junction box
-3 x cable glands for the junction box (i used 20mm screw down cable glands that I had spare).
-2 x 3M Command Strips (or other tape of your choice) to fix the Laundrybot enclosure to the wall.
+* 1 x ABS junction box at large enough to house the CT clamp and the mains power cable. Mine was 15cm x 11cm x 7cm and was just about the right size.
+* 1 x one-gang extension lead that is long enough to go from the washer's mains socket to the floor, and tuck under the cabinet next to the washer. I ended up using a 5m cable.
+* 1 x cable termination method of your choice to join the mains cable back together inside the junction box
+* 3 x cable glands for the junction box (i used 20mm screw down cable glands that I had spare).
+* 2 x 3M Command Strips (or other tape of your choice) to fix the Laundrybot enclosure to the wall.
 
 ## Wiring diagram for the protoboard
 ![wiring diagram](https://github.com/tallnhairydave/LaundryBot/blob/main/photos/fritzing_diagram.png)
