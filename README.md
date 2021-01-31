@@ -10,6 +10,8 @@ You need ESPHome add-on installed and running in HomeAssistant.
 1. Check your configuration.yaml is valid, then restart HA.
 1. Create a new entities card on your lovelace dashboard for Laundrybot. See lovelacecardcode.txt for my code for a basic status card. You can of course use Sensor cards if you want a nice graph of A or W usage over time for your washing machine.
 
+Once you've got the data coming into HA, you can then fire off notifications etc depending on the washing machine state. :)
+
 I've included the STL's to print out my housing for the circuit board that holds the Wemos D1 mini, the display, and the circuit to connect to the CT Clamp.
 
 THIS IS DESIGNED AND BUILT TO WORK WITH A UK SINGLE PHASE 240V 3 CORE MAINS POWER CABLE, the CT Clamp goes around the LIVE core of the wire inside a junction box.
@@ -17,6 +19,8 @@ THIS IS DESIGNED AND BUILT TO WORK WITH A UK SINGLE PHASE 240V 3 CORE MAINS POWE
 I am using it to monitor my washing machine, which has a 13A fuse. 
 
 I've made an "extension lead" by cutting a 1 gang 5M extension cable in half, exposing the three cores and re-terminating them inside a junction box with screw down cable glands for cable entry. That way, the mains cable is safe and the CT clamp can be placed around the LIVE wire to enable current to be monitored.
+
+Note, I've found that after laundrybot boots, it takes a few seconds once it's started sending data into HA before it "settles down" and stops reporting spurious current readings. 
 
 **I AM IN NO WAY RESPONSIBLE FOR ANY ISSUES THAT MAY ARISE IF YOU BUILD THIS CIRCUIT AND WIRE UP ANYTHING TO IT. PROCEED AT YOUR OWN RISK**
 
