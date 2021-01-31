@@ -18,7 +18,7 @@ You'll also need a 3D printer to print out the enclosure :) I've included the ST
 
 I am using it to monitor my washing machine, which has a 13A fuse. 
 
-I've made an "extension lead" by cutting a 1 gang 5M extension cable in half, exposing the three cores and re-terminating them inside a junction box with screw down cable glands for cable entry. That way, the mains cable is safe and the CT clamp can be placed around the LIVE wire to enable current to be monitored.
+I've made an "extension lead" by cutting a 1 gang 5M extension cable in half, exposing the three cores and re-terminating them inside a junction box with screw down cable glands for cable entry. That way, the mains cable is safe and the CT clamp can be placed around the LIVE wire to enable current to be monitored. The washing machine then plugs into that "extension lead" instead of directly into the wall.
 
 Note, I've found that after laundrybot boots, it takes a few seconds once it's started sending data into HA before it "settles down" and stops reporting spurious current readings. 
 
