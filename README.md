@@ -60,7 +60,7 @@ Note the 3D printed support "bridge" for the screen attached to the protoboard w
 **Circuit in case with D1 Mini and display installed**
 ![circuit assembled on protoboard](https://github.com/tallnhairydave/LaundryBot/blob/main/photos/IMG_1790.jpeg)
 
-**3/4 view of the enclosure showing the 7.5mm hole for the CAT6 cable to enter the case, and the slot for the Micro USB power cable to the D1 Mini.
+**3/4 view of the enclosure showing the 7.5mm hole for the CAT6 cable to enter the case, and the slot for the Micro USB power cable to the D1 Mini.**
 ![Case 3/4 view](https://github.com/tallnhairydave/LaundryBot/blob/main/photos/IMG_1793.jpeg)
 
 **Assembled case, with USB cable, and attached cable tidy part.**
