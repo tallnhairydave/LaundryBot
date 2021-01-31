@@ -45,6 +45,6 @@ I've made an "extension lead" by cutting a 1 gang 5M extension cable in half, ex
 3 x cable glands for the junction box (i used 20mm screw down cable glands that I had spare).
 
 ## Wiring diagram for the protoboard
-![wiring diagram](https://github.com/tallnhairydave/LaundryBot/blob/main/fritzing_diagram.png)
+![wiring diagram](https://github.com/tallnhairydave/LaundryBot/blob/main/photos/fritzing_diagram.png)
 
 
