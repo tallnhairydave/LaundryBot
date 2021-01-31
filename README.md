@@ -6,7 +6,7 @@ You need ESPHome add-on installed and running in HomeAssistant.
 1. Create a new ESPHome node
 1. Update the laundrybot.yaml to suit your OTA and API passwords set during creation of the new node, and your WIFI network settings.
 1. Compile and upload the code to your D1 Mini via serial for the first time from ESPHome. Future updates can then be OTA.
-1. Add the code in the my_configuration.yaml file here to your configuration.yaml 
+1. Add the code in the configuration.yaml file here on Github to your configuration.yaml - this will create the switch to turn on and off the display on the Laundrybot.
 1. Check your configuration.yaml is valid, then restart HA.
 
 I've included the STL's to print out my housing for the circuit board that holds the Wemos D1 mini, the display, and the circuit to connect to the CT Clamp.
