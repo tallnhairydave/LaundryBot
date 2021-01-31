@@ -15,7 +15,7 @@ I've included the STL's to print out my housing for the circuit board that holds
 * 2 x M3x6 (no longer than M3x8) machine screws to hold the protoboard in the case
 * 1 x 10µF Capacitor
 * 2 x 10k Resistors
-* 1 x 2 wires screw terminal for solderable protoboard
+* 1 x 2 wires screw terminal for solderable protoboard (note that the terminal block I used occupies 3 pins width on the board, with an unused column between it's two pins, see the fritzing diagram)
 * 2 x M2.5x8 machine screws to hold the display to it's printed support. I designed the support to have M3 screw holes, but they printed too small so had to use M2.5 screws instead. YMMV
 * A small piece of 1mm thick foam tape (e.g. 3M VHB) to stick the base of the screen support piece to the protoboard if desired.
 * Assorted 22 AWG wires to make jumpers for the solderable protoboard
