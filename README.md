@@ -1,5 +1,5 @@
 # LaundryBot
-ESP8266 based CT Clamp sensor for monitoring washing machine power usage and reporting into HomeAssistant. 
+ESP8266 based CT Clamp sensor for monitoring washing machine power usage and reporting into HomeAssistant. Includes an OLED display for visible information in the kitchen, and is housed in a 3D printed enclosure. 
 
 1. You need ESPHome add-on installed and running in HomeAssistant. 
 1. You will need the fonts listed in fonts/readme.txt downloaded and installed in your HA installation in config/esphome/fonts/
