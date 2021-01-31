@@ -9,7 +9,7 @@ I've included the STL's to print out my housing for the circuit board that holds
 * 1 x 4 pin female header for solderable protoboard for the display
 * 2 x 8 pin female header for solderable protoboard for the D1 Mini (my board came with these)
 * 2 x 8 pin male headers for the D1 mini (my board came with these and I just had to solder them on)
-* 1 x 30A 0-1V output CT Clamp, e.g. https://www.amazon.co.uk/gp/product/B07MY361ZW
+* 1 x 30A 0-1V output CT Clamp, e.g. https://www.amazon.co.uk/gp/product/B07MY361ZW - Important note, your CT clamp MUST have an inbuilt "burden resistor" as my circuit used (see the fritzing diagram) does include one, as the CT Clamp I used has a burden resistor built in. 
 * 1 x Electrocookie 1/2 size solderable breadboard, or Adafruit 1/2 size protoboard. Both will fit in the case as they have the same 3mm fixing holes.
 * 1 x 90 degree micro USB cable (if you want the power for the D1 mini to exit downwards from the case)
 * 2 x M3x6 (no longer than M3x8) machine screws to hold the protoboard in the case
