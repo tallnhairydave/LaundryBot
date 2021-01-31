@@ -51,4 +51,4 @@ Note, I've found that after laundrybot boots, it takes a few seconds once it's s
 ## Wiring diagram for the protoboard
 ![wiring diagram](https://github.com/tallnhairydave/LaundryBot/blob/main/photos/fritzing_diagram.png)
 
-![circuit assembled on protoboard](https://github.com/tallnhairydave/LaundryBot/blob/main/photos/IMG_1792.png)
+![circuit assembled on protoboard](https://github.com/tallnhairydave/LaundryBot/blob/main/photos/IMG_1792.jpeg)
