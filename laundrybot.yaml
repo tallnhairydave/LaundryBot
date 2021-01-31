@@ -192,7 +192,7 @@ text_sensor:
     name: "Washing Machine Status"
     id: washing_machine_status
     # values below are guesses, need to get actual values when wired in and monitoring a wash cycle, then update here.
-    # and push out an OTA update
+    # and push out an OTA update. Also need to update the actual state names. Washing for example could be Filling and wash start.
     lambda: |-
       if ((id(washing_machine_watts).state >= 5) and (id(washing_machine_watts).state < 400)) {
         return {"Washing"};
