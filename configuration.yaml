@@ -1,0 +1,18 @@
+# Copy and paste this code into your HA configuration.yaml 
+# It's needed to create a virtual switch in HA that when turned "off" sets the actual switch that controls
+# the display connected to the D1 Mini to "on", thereby setting it to display the blank Page4 (and effectively "turn off")
+
+switch:
+  - platform: template
+    switches:
+      laundrybotdisplay_switch_inverted:
+        friendly_name: "LaundryBot Display"
+        value_template: "{{ is_state('switch.laundrybot_screen', 'off') }}"
+        turn_on:
+          service: switch.turn_off
+          data:
+            entity_id: switch.laundrybot_screen
+        turn_off:
+          service: switch.turn_on
+          data:
+            entity_id: switch.laundrybot_screen
