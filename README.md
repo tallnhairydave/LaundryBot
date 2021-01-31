@@ -22,4 +22,5 @@ I've included the STL's to print out my housing for the circuit board that holds
 * Assorted heatshrink tube (a) to tidy the wiring loom for the display, and (b) to insulate the soldered joint between the CT Clamp to two pairs of the CAT6 cable used to extend the wiring. 
 
 ## wiring diagram for the protoboard
+![wiring diagram]
 (https://github.com/tallnhairydave/LaundryBot/blob/main/fritzing_diagram.png)
