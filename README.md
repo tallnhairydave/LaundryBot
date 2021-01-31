@@ -28,7 +28,7 @@ Note, I've found that after laundrybot boots, it takes a few seconds once it's s
 * 1 x 4 pin female header for solderable protoboard for the display
 * 2 x 8 pin female header for solderable protoboard for the D1 Mini (my board came with these)
 * 2 x 8 pin male headers for the D1 mini (my board came with these and I just had to solder them on)
-* 1 x 30A 0-1V output CT Clamp, e.g. https://www.amazon.co.uk/gp/product/B07MY361ZW - Important note, your CT clamp MUST have an inbuilt "burden resistor" as my circuit used (see the fritzing diagram) does include one, as the CT Clamp I used has a burden resistor built in. When I cut off the 3.5mm headphone jack from my CT Clamp, I found it had one red core and one black core. I connected these to the 2 wire terminal block as shown in the fritzing diagram. Make sure that you clamp it on the LIVE core inside the junction box with the ARROWS on the CT Clamp matching the direction of current flow. **NEVER ALLOW THE CT CLAMP TO OPERATE "OPEN CIRCUIT" i.e. do not connect it around the live wire and turn on the power, UNLESS the wires from the CT Clamp are connected to the terminals on the circuit board**
+* 1 x SCT-013-030, 30A 0-1V output CT Clamp, e.g. https://www.amazon.co.uk/gp/product/B07MY361ZW - Important note, your CT clamp MUST have an inbuilt "burden resistor" as my circuit used (see the fritzing diagram) does include one, as the CT Clamp I used has a burden resistor built in. When I cut off the 3.5mm headphone jack from my CT Clamp, I found it had one red core and one black core. I connected these to the 2 wire terminal block as shown in the fritzing diagram. Make sure that you clamp it on the LIVE core inside the junction box with the ARROWS on the CT Clamp matching the direction of current flow. **NEVER ALLOW THE CT CLAMP TO OPERATE "OPEN CIRCUIT" i.e. do not connect it around the live wire and turn on the power, UNLESS the wires from the CT Clamp are connected to the terminals on the circuit board**
 * 1 x Electrocookie 1/2 size solderable breadboard, or Adafruit 1/2 size protoboard. Both will fit in the case as they have the same 3mm fixing holes.
 * 1 x 90 degree micro USB cable (if you want the power for the D1 mini to exit downwards from the case)
 * 2 x M3x6 (no longer than M3x8) machine screws to hold the protoboard in the case
@@ -46,6 +46,8 @@ Note, I've found that after laundrybot boots, it takes a few seconds once it's s
 * 1 x cable termination method of your choice to join the mains cable back together inside the junction box
 * 3 x cable glands for the junction box (i used 20mm screw down cable glands that I had spare).
 * 2 x 3M Command Strips (or other tape of your choice) to fix the Laundrybot enclosure to the wall.
+
+**NOTE 31 Jan 2021 - when all connected up and with no load, I see values between 0.03A and 0.05A getting reported back to home assistant. i have yet worked out a solution for this.**
 
 ## Wiring diagram for the protoboard
 ![wiring diagram](https://github.com/tallnhairydave/LaundryBot/blob/main/photos/fritzing_diagram.png)
