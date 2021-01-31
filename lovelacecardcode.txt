@@ -1,0 +1,7 @@
+type: entities
+entities:
+  - entity: sensor.washing_machine_current
+  - entity: sensor.washing_machine_power
+  - entity: sensor.washing_machine_status
+  - entity: switch.laundrybotdisplay_switch_inverted
+title: Laundrybot!
