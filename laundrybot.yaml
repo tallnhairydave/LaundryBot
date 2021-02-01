@@ -191,22 +191,18 @@ text_sensor:
   - platform: template    
     name: "Washing Machine Status"
     id: washing_machine_status
-    # values below are guesses, need to get actual values when wired in and monitoring a wash cycle, then update here.
-    # and push out an OTA update. Also need to update the actual state names. Washing for example could be Filling and wash start.
     # DUE TO SPURIOUS AMPS AND WATTS BEING REPORTED EVEN WHEN THE POWER TO THE WASHER IS OFF, I'VE SET 
-    # IT TO REPORT "Idle" FOR ANYTHING LESS THAN 20W. will adjust this once ive monitored an actual wash.
+    # IT TO REPORT "Idle" FOR ANYTHING LESS THAN 12W. Values and states based on my washer running a 40
+    # degree C wash cycle which is the most common one we run.
     lambda: |-
-      if ((id(washing_machine_watts).state >= 20) and (id(washing_machine_watts).state < 400)) {
+      if ((id(washing_machine_watts).state >= 12) and (id(washing_machine_watts).state < 35)) {
+        return {"Fill / Soak"};
+      }
+      if ((id(washing_machine_watts).state >= 35) and (id(washing_machine_watts).state < 1500)) {
         return {"Washing"};
       }
-      if ((id(washing_machine_watts).state >= 400) and (id(washing_machine_watts).state < 1500)) {
-        return {"Spinning"};
-      }
-      if ((id(washing_machine_watts).state >= 1500) and (id(washing_machine_watts).state < 1800)) {
-        return {"Fast Spin"};
-      }
-      if ((id(washing_machine_watts).state >= 1800)) {
-        return {"Heating"};
+      if ((id(washing_machine_watts).state >= 1500) and (id(washing_machine_watts).state < 3500)) {
+        return {"Washing & Heating"};
       } else {
         return {"Idle"};
       }
